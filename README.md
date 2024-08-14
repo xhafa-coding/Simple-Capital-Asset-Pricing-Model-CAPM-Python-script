@@ -1,6 +1,6 @@
-A simple Capital Asset Pricing Model created using Python.
+A simple Capital Asset Pricing Model (CAPM) created using Python.
 
-The script makes use of the CAPM model as given by:
+The script makes use of the CAPM as given by:
 
 Ri = Rf + (βi * (Rm – Rf))
 
