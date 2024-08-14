@@ -9,7 +9,7 @@ https://ibb.co/ZSD4CSz
 
 interactive_plot(normalize(stocks_df), 'Normalized Prices')
 
-https://ibb.co/7Jb8n4R
+https://ibb.co/ynhp0J7
 
 stocks_daily_return.plot(kind = 'scatter', x = 'sp500', y = 'TSLA', color = 'w')
 
