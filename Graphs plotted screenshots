@@ -1,0 +1,21 @@
+#Function to plot stock price and time data
+def interactive_plot(df, title):
+    fig = px.line(title = title)
+    for i in df.columns[1:]:
+        fig.add_scatter(x = df['Date'], y = df[i], name = i)
+    fig.show()
+
+https://ibb.co/ZSD4CSz
+
+interactive_plot(normalize(stocks_df), 'Normalized Prices')
+
+https://ibb.co/7Jb8n4R
+
+stocks_daily_return.plot(kind = 'scatter', x = 'sp500', y = 'TSLA', color = 'w')
+
+https://ibb.co/bN58J3t
+
+stocks_daily_return.plot(kind = 'scatter', x = 'sp500', y = 'TSLA', color = 'w')
+plt.plot(stocks_daily_return['sp500'], beta * stocks_daily_return['sp500'] + alpha, '-', color = 'r')
+
+https://ibb.co/Xp1ZsSx
